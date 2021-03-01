@@ -21,3 +21,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::post('/capybaras', AddCapybaraController::class);
+
+Route::post('/observations', NewObservationController::class);
