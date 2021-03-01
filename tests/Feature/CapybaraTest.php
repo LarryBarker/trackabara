@@ -2,7 +2,6 @@
 
 namespace Tests\Feature;
 
-use App\Http\Requests\AddCapybaraRequest;
 use App\Models\Capybara;
 use Database\Seeders\CapybaraSeeder;
 use Illuminate\Foundation\Testing\RefreshDatabase;
