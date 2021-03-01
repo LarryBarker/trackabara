@@ -19,4 +19,9 @@ class Capybara extends Model
             'size' => 'required|in:small,medium,large'
         ];
     }
+
+    public function observations()
+    {
+        return $this->hasMany(Observation::class);
+    }
 }
